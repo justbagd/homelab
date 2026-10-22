@@ -1,33 +1,33 @@
 # Homelab Documentation
 
-Last updated: YYYY-MM-DD
+Last updated: 2026-10-22
 
 ## 1. Overview
 
 Short description of what this server is for.
 
-- **Hostname:**
-- **Location:** (apartment, shelf/desk, etc.)
-- **IP address:** (static or DHCP reservation)
-- **Primary use:**
+- **Hostname:** 
+- **Location:** apartment
+- **IP address:** 10.250.16.39
+- **Primary use:** Self-Hosting
 
 ## 2. Hardware
 
 | Component | Details |
 |-----------|---------|
-| CPU | |
-| RAM | |
+| CPU | Intel Core i5-10600T CPU @ 2.40GHz |
+| RAM | 16gb |
 | Boot drive | |
 | Data drives | |
 | Network | (1GbE, Wi-Fi, etc.) |
-| Power | (UPS? model, runtime) |
+| Power | |
 | Other | |
 
 **Physical notes:** power setup, cooling, anything to know before touching it.
 
 ## 3. Operating System
 
-- **OS and version:**
+- **OS and version:** ZimaOS 1.8.0
 - **Install date:**
 - **Admin user:**
 - **Notable packages or config:**
@@ -36,7 +36,7 @@ Short description of what this server is for.
 
 | Service | Purpose | Port | Deployment | Config location | Data location | Access |
 |---------|---------|------|------------|-----------------|---------------|--------|
-| Example: Jellyfin | Media server | 8096 | Docker | `~/homelab/jellyfin/` | `/mnt/data/media` | LAN only |
+| Jellyfin | Media server | 8096 | Docker | `/DATA/AppData/jellyfin` | `/mnt/data/media` |  |
 | | | | | | | |
 
 **Deployment files:** path to docker-compose files / repo URL:
