@@ -47,7 +47,7 @@ Short description of what this server is for.
 | Flaresolverr | Cloudflare Solver| 8191:8191 | Docker | `/DATA/AppData/flaresolverr` | `` | LAN |
 | Open-webui | ollama GUI | 3000:8080 | Docker | `/DATA/AppData/open-webui` | `` | LAN |
 | Ollama | AI Models | 11434:11434 | Docker | `/DATA/AppData/ollama` | `` | LAN |
-| Dozzle | Docker Management | 8888:8080 | Docker | `/DATA/AppData/dozzle` | `` | LAN |
+| Dozzle | Docker Logs | 8888:8080 | Docker | `/DATA/AppData/dozzle` | `` | LAN |
 | Portainer | Docker Management | 8000:8000, 9000:9000, 9443:9443 | Docker | `/DATA/AppData/portainer` | `` | LAN |
 | Homarr | Dashboard | 7575:7575 | Docker | `/DATA/AppData/homarr` | `` | LAN |
 | Tailscale | Remote Access | | Docker | `/DATA/AppData/tailscale` | `` | LAN |
@@ -71,7 +71,7 @@ Short description of what this server is for.
 - **How I know something is down:**
 - **Alerts:** (tool, where they go)
 - **Dashboards:** (URLs)
-- **Log locations:**
+- **Log locations:** Dozzle
 
 ## 7. Rebuild Checklist
 
